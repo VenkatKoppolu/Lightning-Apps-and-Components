@@ -10,4 +10,5 @@
             
     
 </lightning:card>
+<lightning:button label="Packed!" onclick="{!c.packItem}"/>
 </aura:component>
