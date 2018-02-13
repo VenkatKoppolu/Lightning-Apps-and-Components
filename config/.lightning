@@ -563,6 +563,23 @@
     {
         "attributes": {
             "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad0I000000hoRASAY"
+        },
+        "Id": "0Ad0I000000hoRASAY",
+        "AuraDefinitionBundleId": "0Ab0I0000001XfvSAE",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab0I0000001XfvSAE"
+            },
+            "DeveloperName": "campingListItem"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
             "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad28000000ocMeCAI"
         },
         "Id": "0Ad28000000ocMeCAI",

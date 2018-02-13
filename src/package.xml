@@ -3,6 +3,7 @@
 	<types>
 		<members>Ltng_Component_Ex2</members>
 		<members>helloMessage</members>
+		<members>campingListItem</members>
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<version>36.0</version>

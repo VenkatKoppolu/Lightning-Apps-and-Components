@@ -26,5 +26,19 @@
         "manageableState": "unmanaged",
         "type": "AuraDefinitionBundle",
         "mmState": "clean"
+    },
+    "campingListItem/campingListItem.cmp.undefined": {
+        "createdById": "00528000005Lvf4AAC",
+        "createdByName": "Venkat Koppolu",
+        "createdDate": "2018-02-13T12:06:11.000Z",
+        "fileName": "unpackaged/aura/campingListItem/campingListItem.cmp",
+        "fullName": "campingListItem/campingListItem.cmp",
+        "id": "0Ad0I000000hoRASAY",
+        "lastModifiedById": "00528000005Lvf4AAC",
+        "lastModifiedByName": "Venkat Koppolu",
+        "lastModifiedDate": "2018-02-13T12:06:11.000Z",
+        "manageableState": "unmanaged",
+        "type": "AuraDefinitionBundle",
+        "mmState": "clean"
     }
 }
