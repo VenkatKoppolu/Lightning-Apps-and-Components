@@ -1,0 +1,7 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="ExampleName" ref="exampleComponentName" label="Label">
+			here’s what the component looks like when rendered on screen:
+		https://res.cloudinary.com/hy4kyit2a/image/upload/doc/trailhead/en-usce105c36674cc0d00fa6811882bf4b8b.png
+	</aura:example>
+</aura:documentation>
