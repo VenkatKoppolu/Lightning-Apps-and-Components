@@ -40,5 +40,33 @@
         "manageableState": "unmanaged",
         "type": "AuraDefinitionBundle",
         "mmState": "clean"
+    },
+    "Ltng_component_Ex3/Ltng_component_Ex3Controller.js.undefined": {
+        "createdById": "00528000005Lvf4AAC",
+        "createdByName": "Venkat Koppolu",
+        "createdDate": "2018-02-13T15:00:11.000Z",
+        "fileName": "unpackaged/aura/Ltng_component_Ex3/Ltng_component_Ex3Controller.js",
+        "fullName": "Ltng_component_Ex3/Ltng_component_Ex3Controller.js",
+        "id": "0Ad0I000000hoReSAI",
+        "lastModifiedById": "00528000005Lvf4AAC",
+        "lastModifiedByName": "Venkat Koppolu",
+        "lastModifiedDate": "2018-02-13T15:00:11.000Z",
+        "manageableState": "unmanaged",
+        "type": "AuraDefinitionBundle",
+        "mmState": "clean"
+    },
+    "Ltng_component_Ex3/Ltng_component_Ex3.cmp.undefined": {
+        "createdById": "00528000005Lvf4AAC",
+        "createdByName": "Venkat Koppolu",
+        "createdDate": "2018-02-13T15:00:11.000Z",
+        "fileName": "unpackaged/aura/Ltng_component_Ex3/Ltng_component_Ex3.cmp",
+        "fullName": "Ltng_component_Ex3/Ltng_component_Ex3.cmp",
+        "id": "0Ad0I000000hoRZSAY",
+        "lastModifiedById": "00528000005Lvf4AAC",
+        "lastModifiedByName": "Venkat Koppolu",
+        "lastModifiedDate": "2018-02-13T15:00:11.000Z",
+        "manageableState": "unmanaged",
+        "type": "AuraDefinitionBundle",
+        "mmState": "clean"
     }
 }
