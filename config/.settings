@@ -1,0 +1,18 @@
+{
+    "projectName": "Venkat Lightning Components",
+    "username": "venkat.koppolu@lightning.com",
+    "id": "7c73f380-1097-11e8-8aaa-b7ea9a4dfbe6",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://venkat-lightning-dev-ed.my.salesforce.com",
+    "workspace": "/Users/venkatkoppolu/Documents/VS Code Workspace",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AuraDefinitionBundle",
+        "StaticResource"
+    ]
+}
