@@ -529,6 +529,40 @@
     {
         "attributes": {
             "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad0I000000hoR0SAI"
+        },
+        "Id": "0Ad0I000000hoR0SAI",
+        "AuraDefinitionBundleId": "0Ab0I0000001XfgSAE",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab0I0000001XfgSAE"
+            },
+            "DeveloperName": "Ltng_Component_Ex2"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad0I000000hoR5SAI"
+        },
+        "Id": "0Ad0I000000hoR5SAI",
+        "AuraDefinitionBundleId": "0Ab0I0000001XfqSAE",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab0I0000001XfqSAE"
+            },
+            "DeveloperName": "helloMessage"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
             "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad28000000ocMeCAI"
         },
         "Id": "0Ad28000000ocMeCAI",
