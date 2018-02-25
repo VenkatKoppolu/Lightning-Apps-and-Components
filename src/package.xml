@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CampingListController</members>
+        <members>AccountCalendarController</members>
+        <members>CalendarEvent</members>
+        <members>ShowFormEditableComponentController</members>
+        <members>Utility</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>CampingApp</members>
-        <members>camping</members>
-        <members>campingHeader</members>
-        <members>campingList</members>
-        <members>campingListItem</members>
+        <members>AccountCalendarComponent</members>
+        <members>EventCreationComponent</members>
+        <members>ShowFormEditableComponent</members>
         <name>AuraDefinitionBundle</name>
     </types>
     <version>36.0</version>
