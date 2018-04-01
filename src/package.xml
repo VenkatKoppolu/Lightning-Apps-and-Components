@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    
     <types>
-        <members>AccountCalendarController</members>
-        <members>CalendarEvent</members>
-        <members>ShowFormEditableComponentController</members>
-        <members>Utility</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
-        <members>AccountCalendarComponent</members>
-        <members>EventCreationComponent</members>
-        <members>ShowFormEditableComponent</members>
+       
+        <members>fileUpload</members>
         <name>AuraDefinitionBundle</name>
     </types>
-    <version>36.0</version>
+    <version>38.0</version>
 </Package>
