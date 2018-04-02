@@ -23,7 +23,7 @@
                              checked="{!v.expense.Reimbursed__c}"
                              messageToggleActive="Yes"
                              messageToggleInactive="No"/>
-                             <!--onchange="{!c.clickReimbursed}"-->
+                             onchange="{!c.clickReimbursed}">
         </p>
     </lightning:card>
 </aura:component>
