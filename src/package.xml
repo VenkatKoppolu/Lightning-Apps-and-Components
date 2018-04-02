@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>expenseItem</members>
-		<members>expenseTracker</members>
-		<members>expenses</members>
-		<members>expensesApp</members>
-		<members>expensesList</members>
+		<members>fileUpload</members>
+		<members>expensesItemUpdate</members>
+		<members>expenseForm</members>
 		<name>AuraDefinitionBundle</name>
 	</types>
-	<types>
-		<members>ExpensesController</members>
-		<name>ApexClass</name>
-	</types>
-	<version>36.0</version>
+	<version>38.0</version>
 </Package>
