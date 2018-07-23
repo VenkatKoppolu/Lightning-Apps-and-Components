@@ -9,9 +9,11 @@
     </types>
     <types>
         <members>AccountCalendarComponent</members>
+        <members>AvailabilityPopUp</members>
         <members>EventCreationComponent</members>
         <members>ShowFormEditableComponent</members>
+        <members>WeekDays</members>
         <name>AuraDefinitionBundle</name>
     </types>
-    <version>36.0</version>
+    <version>38.0</version>
 </Package>

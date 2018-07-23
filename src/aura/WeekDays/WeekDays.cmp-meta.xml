@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>43.0</apiVersion>
-    <description>Dispalys a form which is editable and the fields can be fetched from fieldset</description>
+    <description>WeekDays</description>
 </AuraDefinitionBundle>

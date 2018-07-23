@@ -12,4 +12,11 @@ public with sharing class ShowFormEditableComponentController {
 		
 		return JSON.serialize(fieldsetMembers);
 	}
+
+
+	@AuraEnabled
+	public static String getDefaultDaysOnForWeek(String objectApi){
+		Map<String, WeeklyDays__c> weekDays=WeeklyDays__c.getall();
+		return JSON.serialize(weekDays.get(objectApi));
+	}
 }
