@@ -4,50 +4,54 @@
     <aura:attribute name="fieldSet" type="String"/>
     <aura:attribute name="columns" type="Integer"/>
     <aura:attribute name="fieldsetfields" type="Schema.FieldSetMember[]"/>
-    <aura:attribute name="fieldsetfieldPaths" type="String[]"/>
-
+    <aura:attribute name="checkboxoptions" type="List" default="[
+    {'label': 'Sunday', 'value': 'Sunday'},
+    {'label': 'Monday', 'value': 'Monday'},
+    {'label': 'Tuesday', 'value': 'Tuesday'},
+    {'label': 'Wednesday', 'value': 'Wednesday'},
+    {'label': 'Thursday', 'value': 'Thursday'},
+    {'label': 'Friday', 'value': 'Friday'},
+    {'label': 'Saturday', 'value': 'Saturday'}
+    ]"/>
     <aura:attribute name="checkboxvalue" type="List"/>
-
+    
     <aura:handler name="init" action="{!c.doinit}" value="{!this}"/>
-
+   
     <!--<div class="recordlayoutpage" aura:id="record page" style="width: 75%;
-box-sizing: border-box;
-border: 1px dotted rgb(42, 66, 108);
-outline: 2px solid rgba(255, 255, 255, 0.85);
-outline-offset: calc(-1 * (2px + 1px));
-padding: .75rem 0;
-pointer-events: auto;
-position: relative;">-->
-<div id="testID">{!v.fieldsetfieldPaths}</div>
-<lightning:layout horizontalAlign="center" class="slds-grid" multipleRows="true">
-            <aura:iteration var="field" items="{!v.fieldsetfields}">
-                <lightning:layoutItem flexibility="shrink" padding="around-small">
-                    <lightning:inputField fieldName="{!field.fieldPath}" />
-                </lightning:layoutItem>
-            </aura:iteration>
-</lightning:layout>
-
-<lightning:recordForm 
-         objectApiName="{!v.objectApi}" 
-         layoutType="Compact" 
-         fields="{!v.fieldsetfieldPaths}"
-         columns="2"
-         mode="edit"
-         onsubmit="{!c.handleSubmit}" />
-
-    <!--<lightning:recordEditForm objectApiName="{!v.objectApi}" class="slds-card">
-        <lightning:messages />
-        
-           
-        
-        <lightning:button label="Add" title="Add" onclick="{! c.handleClick }" iconName="utility:add"/>
-        <lightning:layout horizontalAlign="center" class="slds-grid" multipleRows="true">
-            <aura:iteration var="field" items="{!v.fieldsetfields}">
-                <lightning:layoutItem flexibility="shrink" padding="around-small">
-                    <lightning:inputField fieldName="{!field.fieldPath}" />
-                </lightning:layoutItem>
-            </aura:iteration>
-           
-        </lightning:layout>
-    </lightning:recordEditForm>-->
+    box-sizing: border-box;
+    border: 1px dotted rgb(42, 66, 108);
+    outline: 2px solid rgba(255, 255, 255, 0.85);
+    outline-offset: calc(-1 * (2px + 1px));
+    padding: .75rem 0;
+    pointer-events: auto;
+    position: relative;">-->
+    <lightning:recordEditForm objectApiName="{!v.objectApi}" class="slds-card">
+    <lightning:messages />
+                      <lightning:layout horizontalAlign="space" class="slds-grid" multipleRows="true">
+    
+                            <aura:iteration var="field" items="{!v.fieldsetfields}">
+                             <lightning:layoutItem flexibility="shrink" padding="around-small">
+                            <lightning:inputField fieldName="{!field.fieldPath}" />
+                              </lightning:layoutItem>       
+                            </aura:iteration>
+    </lightning:layout>  <lightning:layout horizontalAlign="space" class="slds-grid" >
+       
+    <aura:iteration var="checkfield" items="{!v.checkboxoptions}">
+     <lightning:layoutItem flexibility="auto" padding="around-small">
+     <lightning:input type="checkbox"
+        aura:id="mygroup"
+        name="checkboxGroup"
+        label="{!checkfield.label}" 
+        value="{!checkfield.value}"
+        /><!--onchange="{! c.handleChange }"
+        required="true" -->
+     </lightning:layoutItem> 
+      </aura:iteration>
+          </lightning:layout>                  
+                            
+      
+                          
+    </lightning:recordEditForm>
+  
+    
 </aura:component>
