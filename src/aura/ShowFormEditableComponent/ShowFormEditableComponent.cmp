@@ -18,13 +18,13 @@ outline-offset: calc(-1 * (2px + 1px));
 padding: .75rem 0;
 pointer-events: auto;
 position: relative;">-->
-<lightning:layout horizontalAlign="center" class="slds-grid" multipleRows="true">
+<!--<lightning:layout horizontalAlign="center" class="slds-grid" multipleRows="true">
             <aura:iteration var="field" items="{!v.fieldsetfields}">
                 <lightning:layoutItem flexibility="shrink" padding="around-small">
                     <lightning:inputField fieldName="{!field.fieldPath}" />
                 </lightning:layoutItem>
             </aura:iteration>
-</lightning:layout>
+</lightning:layout>-->
 
  <!--<lightning:recordForm 
          objectApiName="{!v.objectApi}" 
