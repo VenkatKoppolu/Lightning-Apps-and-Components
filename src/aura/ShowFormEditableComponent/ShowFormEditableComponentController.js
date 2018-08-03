@@ -12,8 +12,8 @@
 			if(response.getState()=='SUCCESS'){
 				var fieldsSchema=JSON.parse(response.getReturnValue());
 				component.set('v.fieldsetfields',fieldsSchema);
-				
-				var fieldsetfieldPaths=[];
+				 console.log('@@@'+fieldsSchema);
+				/*var fieldsetfieldPaths=[];
 					for(var i=0;i<fieldsSchema.length;i++){
 						fieldsetfieldPaths.push(fieldsSchema[i].fieldPath);
 				}
@@ -21,7 +21,7 @@
 				console.log(fieldsetfieldPaths);
 
 			component.set('v.fieldsetfieldPaths',fieldsetfieldPaths);
-			console.log(component.get('v.fieldsetfieldPaths'));
+			console.log(component.get('v.fieldsetfieldPaths'));*/
 			}else{
 				console.log('Failed in ShowFormEditableComponent'+response);
 			}

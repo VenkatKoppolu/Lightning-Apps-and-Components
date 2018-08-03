@@ -4,7 +4,7 @@
     <aura:attribute name="fieldSet" type="String"/>
     <aura:attribute name="columns" type="Integer"/>
     <aura:attribute name="fieldsetfields" type="Schema.FieldSetMember[]"/>
-    <aura:attribute name="fieldsetfieldPaths" type="String[]"/>
+
 
     <aura:attribute name="checkboxvalue" type="List"/>
 
@@ -18,7 +18,6 @@ outline-offset: calc(-1 * (2px + 1px));
 padding: .75rem 0;
 pointer-events: auto;
 position: relative;">-->
-<div id="testID">{!v.fieldsetfieldPaths}</div>
 <lightning:layout horizontalAlign="center" class="slds-grid" multipleRows="true">
             <aura:iteration var="field" items="{!v.fieldsetfields}">
                 <lightning:layoutItem flexibility="shrink" padding="around-small">
@@ -27,27 +26,24 @@ position: relative;">-->
             </aura:iteration>
 </lightning:layout>
 
-<lightning:recordForm 
+ <!--<lightning:recordForm 
          objectApiName="{!v.objectApi}" 
          layoutType="Compact" 
          fields="{!v.fieldsetfieldPaths}"
          columns="2"
          mode="edit"
-         onsubmit="{!c.handleSubmit}" />
+         onsubmit="{!c.handleSubmit}" />-->
 
-    <!--<lightning:recordEditForm objectApiName="{!v.objectApi}" class="slds-card">
+   <lightning:recordEditForm objectApiName="{!v.objectApi}" class="slds-card">
         <lightning:messages />
-        
-           
-        
         <lightning:button label="Add" title="Add" onclick="{! c.handleClick }" iconName="utility:add"/>
         <lightning:layout horizontalAlign="center" class="slds-grid" multipleRows="true">
             <aura:iteration var="field" items="{!v.fieldsetfields}">
                 <lightning:layoutItem flexibility="shrink" padding="around-small">
-                    <lightning:inputField fieldName="{!field.fieldPath}" />
+                    <lightning:inputField fieldName="{!field}" />
                 </lightning:layoutItem>
             </aura:iteration>
            
         </lightning:layout>
-    </lightning:recordEditForm>-->
+    </lightning:recordEditForm>
 </aura:component>
